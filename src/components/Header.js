@@ -27,17 +27,17 @@ class Header extends Component {
         {
             name: 'DOCUMENTACIÓN',
             isActive: false,
-            to: '/'
+            to: '/documentation'
         },
         {
             name: 'CONTACTENOS',
             isActive: false,
-            to: '/'
+            to: '/contact'
         }
     ]
 
 
-    componentWillMount() {
+    componentDidMount() {
 
         this.unlisten = this.props.history.listen((location, action) => {
             console.log(location)

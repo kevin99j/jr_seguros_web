@@ -4,27 +4,27 @@
         "servicesList": [
             {
                 "title": "GESTION Y AFILIACION ANTE ADMINISTRADORAS DE SEGURIDAD SOCIAL",
-                "icon": "",
+                "icon": "/assets/images/arl_b.jpg",
                 "details": "Le brindamos toda la asesoría y acompañamiento en el proceso de afiliación a seguridad social, gestionamos por usted todo el proceso operativo ante las entidades y le garantizamos la prestación de los servicios sin interrupción (siempre y cuando el pago se realice de manera oportuna)."
             },
             {
                 "title": "ASESORIA JURIDICA CONTRACTUAL",
-                "icon": "",
+                "icon": "/assets/images/asesoria_b.jpg",
                 "details": "Apoyamos su proceso de contratación de personal con un abogado especialista en contratación, aconsejando el modelo contractual que mas se acomode a las necesidades a satisfacer"
             },
             {
                 "title": "PROGRAMAS DE PREVENCION Y PROMOCION",
-                "icon": "",
+                "icon": "/assets/images/ccf_b.jpg",
                 "details": "Los Programas de Promoción y Prevención son un conjunto de atenciones y servicios de salud cuyo objetivo principal es lograr que nuestros afiliados y la población en general logren mantener y mejorar su salud y calidad de vida mediante acciones y prácticas que optimicen su bienestar"
             },
             {
                 "title": "CAPACITACIONES DE SEGURIDAD Y SALUD EN TRABAJO",
-                "icon": "",
+                "icon": "/assets/images/pension_b.jpg",
                 "details": "Tenemos convenios por medio de los cuales brindamos capacitaciones a través de las cuales se busca prevenir cualquier tipo de accidente o incidente laboral"
             }
         ]
     },
-    "benefits":{
+    "benefits": {
         "title": "Nuestros Beneficios",
         "benefitsList": [
             {
@@ -74,6 +74,70 @@
                     "Subsidio familiar a partir del mes de la afiliación por cada beneficiario menor de 18 años que tenga calidad de estudiante, mes vencido (CCF realiza el pago el día 30 de cada mes)",
                     "Ingreso a todos los servicios de Recreación y Deporte que ofrece la caja de compensación a la cual usted se encuentra afiliado",
                     "Acceso a todos los programas educativos y de formación que la caja brinde a sus afiliados"
+                ]
+            }
+        ]
+    },
+    "documentation": {
+        "title": "Documentación",
+        "sections": [
+            {
+                "title": "DOCUMENTACIÓN AFILIACIÓN A LA EPS",
+                "subsections": [
+                    {
+                        "title": "Cotizante o conyugue",
+                        "details": [
+                            "Copia de Cedula Legible al 150 %"
+                        ]
+                    },
+                    {
+                        "title": "Hijos menores de 7 años",
+                        "details": [
+                            "Copia de registro civil legible",
+                            "Copia de tarjeta de identidad"
+                        ]
+                    },
+                    {
+                        "title": "Hijos de 18 años a 25 años",
+                        "details": [
+                            "Copia cedula al 150%",
+                            "Copia de registro civil legible"
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "DOCUMENTACION AFILIACION A LA CAJA DE COMPENSACION FAMILIAR",
+                "subsections": [
+                    {
+                        "title": "Cotizante o conyugue",
+                        "details": [
+                            "Copia de Cedula Legible al 150 %"
+                        ]
+                    },
+                    {
+                        "title": "Hijos menores de 12 años",
+                        "details": [
+                            "Copia del registro civil legible"
+                        ]
+                    },
+                    {
+                        "title": "Hijos mayores de 12 años",
+                        "details": [
+                            "Copia de registro civil legible",
+                            "Copia de tarjeta de identidad",
+                            "Certificado estudiantil original"
+                        ]
+                    },
+                    {
+                        "title": "Hijos mayores de 18 años",
+                        "details": [
+                            "Copia de registro civil legible",
+                            "Copia cedula",
+                            "Certificado estudiantil",
+                            "NO RECIBEN SUBSIDIO"
+                        ]
+                    }
                 ]
             }
         ]

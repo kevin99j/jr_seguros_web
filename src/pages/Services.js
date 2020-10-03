@@ -25,7 +25,7 @@ const Services = ({services}) => {
                     return( 
                     <div className="col-md-12 col-lg-6 d-flex align-self-stretch animated ftco_animate" key={index}>
                     <div className="media block-8 services d-flex">
-                      <div className="icon justify-content-center align-items-center d-flex"><span className="flaticon-ambulance"></span></div>
+                      <div className="icon justify-content-center align-items-center d-flex"><img src={service.icon} style={{height:'40px'}} alt="detalle"/></div>
                       <div className="media-body pl-md-4">
                         <h3 className="heading mb-3">{service.title}</h3>
                         <p>{service.details}</p>

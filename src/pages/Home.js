@@ -12,35 +12,35 @@ const slides = [
         subtitle: "Peru",
         description: "Somos una compañía encargada de velar y trabajar por el bienestar y la seguridad social de empleadores, empleados y trabajadores independientes, con el objetivo de garantizar su salud, seguridad social, su futuro y el de su familia",
         image:
-            "https://images.unsplash.com/photo-1571771019784-3ff35f4f4277?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=800&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ"
+            "http://localhost:9000/assets/images/portada/IMG-20200509-WA0163.jpg"
     },
     {
         title: "Chamonix",
         subtitle: "France",
         description: "Let your dreams come true",
         image:
-            "https://images.unsplash.com/photo-1581836499506-4a660b39478a?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=800&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ"
+            "http://localhost:9000/assets/images/portada/IMG-20200518-WA0053.jpg"
     },
     {
         title: "Mimisa Rocks",
         subtitle: "Australia",
         description: "A piece of heaven",
         image:
-            "https://images.unsplash.com/photo-1566522650166-bd8b3e3a2b4b?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=800&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ"
+            "http://localhost:9000/assets/images/portada/IMG-20200911-WA0033.jpg"
     },
     {
         title: "Four",
         subtitle: "Australia",
         description: "A piece of heaven",
         image:
-            "https://images.unsplash.com/flagged/photo-1564918031455-72f4e35ba7a6?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=800&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ"
+            "http://localhost:9000/assets/images/portada/IMG-20200908-WA0014.jpg"
     },
     {
         title: "Five",
         subtitle: "Australia",
         description: "A piece of heaven",
         image:
-            "https://images.unsplash.com/photo-1579130781921-76e18892b57b?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=800&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ"
+            "http://localhost:9000/assets/images/portada/IMG-20200509-WA0143.jpg"
     }
 ];
 

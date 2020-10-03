@@ -1,4 +1,4 @@
-gi{
+{
   "name": "jr_seguros_web",
   "version": "0.1.0",
   "private": true,
@@ -8,6 +8,7 @@ gi{
     "@testing-library/user-event": "^7.2.1",
     "animate.css": "^4.1.1",
     "bootstrap": "^4.5.2",
+    "express": "^4.17.1",
     "jquery": "^3.5.1",
     "jquery.stellar": "^0.6.2",
     "node-sass": "^4.14.1",

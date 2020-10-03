@@ -4,6 +4,8 @@ import './App.css';
 import Footer from './components/Footer';
 import Header from './components/Header';
 import Benefits from './pages/Benefits';
+import Contact from './pages/Contact';
+import Documentation from './pages/Documentation';
 import Home from './pages/Home';
 import Pricing from './pages/Pricing';
 import Services from './pages/Services';
@@ -20,6 +22,10 @@ function App() {
     benefits: {
       benefitsList:[],
       title: ''
+    },
+    documentation: {
+      title: '',
+      sections: []
     }
   });
 
@@ -47,6 +53,12 @@ function App() {
         </Route>
         <Route path="/benefits">
         <Benefits benefits={info.benefits} />
+        </Route>
+        <Route path="/documentation">
+        <Documentation documentation={info.documentation} />
+        </Route>
+        <Route path="/contact">
+        <Contact/>
         </Route>
       </Switch>
       </Router>

@@ -1,0 +1,81 @@
+{
+    "services": {
+        "title": "Nuestros Servicios",
+        "servicesList": [
+            {
+                "title": "GESTION Y AFILIACION ANTE ADMINISTRADORAS DE SEGURIDAD SOCIAL",
+                "icon": "",
+                "details": "Le brindamos toda la asesoría y acompañamiento en el proceso de afiliación a seguridad social, gestionamos por usted todo el proceso operativo ante las entidades y le garantizamos la prestación de los servicios sin interrupción (siempre y cuando el pago se realice de manera oportuna)."
+            },
+            {
+                "title": "ASESORIA JURIDICA CONTRACTUAL",
+                "icon": "",
+                "details": "Apoyamos su proceso de contratación de personal con un abogado especialista en contratación, aconsejando el modelo contractual que mas se acomode a las necesidades a satisfacer"
+            },
+            {
+                "title": "PROGRAMAS DE PREVENCION Y PROMOCION",
+                "icon": "",
+                "details": "Los Programas de Promoción y Prevención son un conjunto de atenciones y servicios de salud cuyo objetivo principal es lograr que nuestros afiliados y la población en general logren mantener y mejorar su salud y calidad de vida mediante acciones y prácticas que optimicen su bienestar"
+            },
+            {
+                "title": "CAPACITACIONES DE SEGURIDAD Y SALUD EN TRABAJO",
+                "icon": "",
+                "details": "Tenemos convenios por medio de los cuales brindamos capacitaciones a través de las cuales se busca prevenir cualquier tipo de accidente o incidente laboral"
+            }
+        ]
+    },
+    "benefits":{
+        "title": "Nuestros Beneficios",
+        "benefitsList": [
+            {
+                "title": "CON JR SEGUROS",
+                "icon": "/assets/images/logo.png",
+                "details": [
+                    "SOMOS HONESTOS CON LOS APORTES DE LOS AFILIADOS, DEBIDO A QUE RESPETAMOS LAS LEYES INTERNAS DEL DINERO",
+                    "NO SE AFILIAN POR UNOS DÍAS Y LUEGO DESAFILIAN",
+                    "NO SE LES PAGA TARDE. (SIEMPRE Y CUANDO EL USUARIO PAGUE A TIEMPO)",
+                    "ASESORAMOS EN CASO DE TRASLADO",
+                    "NO ROBAMOS LAS INCAPACIDADES, NI LICENCIAS DE MATERNIDAD",
+                    "LAS TARIFAS CON NOSOTROS SON PREFERENCIALES Y COMPARADAS CON LAS TARIFAS COMO INDEPENDIENTES, TIENEN UN AHORRO"
+                ]
+            },
+            {
+                "title": "CON LA EPS",
+                "icon": "/assets/images/4.png",
+                "details": [
+                    "Podrá afiliar a su cónyuge o compañero(a) permanente, hijos(as) menores de 25 años que estén estudiando",
+                    "Si no tiene conyugue ni hijos(as) podrá afiliar a sus Padres siempre que no sean pensionados y dependen económicamente de usted",
+                    "Se pagan incapacidades en los montos establecidos por la Ley y de acuerdo a base de cotización 877.803 SMLV, o de previo acuerdo con el afiliado",
+                    "Transcurridos los primeros 30 días de afiliación el afiliado y sus beneficiarios tendrán acceso a Hospitalización, Cirugía y Consulta con Especialistas de acuerdo a lo establecido dentro del Sistema de seguridad social"
+                ]
+            },
+            {
+                "title": "CON LA ARL",
+                "icon": "/assets/images/3.png",
+                "details": [
+                    "La cobertura es nacional",
+                    "Son cubiertos 5 niveles de Riesgos Laborales",
+                    "Pago de Incapacidad al 100% por Accidente Laboral según lo establecido en la Ley y de acuerdo a la normatividad de la ARL. ( es importante el pago oportuno de sus aportes)"
+                ]
+            },
+            {
+                "title": "CON LA AFP (PENSIONES)",
+                "icon": "/assets/images/5.png",
+                "details": [
+                    "La edad de pensión en Hombres es 62 Años",
+                    "La edad de pensión para Mujeres es de 57 Años",
+                    "Se deben tener 1.300 semanas cotizadas"
+                ]
+            },
+            {
+                "title": "CON LA CCF (CAJA DE COMPENSACION)",
+                "icon": "/assets/images/2.png",
+                "details": [
+                    "Subsidio familiar a partir del mes de la afiliación por cada beneficiario menor de 18 años que tenga calidad de estudiante, mes vencido (CCF realiza el pago el día 30 de cada mes)",
+                    "Ingreso a todos los servicios de Recreación y Deporte que ofrece la caja de compensación a la cual usted se encuentra afiliado",
+                    "Acceso a todos los programas educativos y de formación que la caja brinde a sus afiliados"
+                ]
+            }
+        ]
+    }
+}

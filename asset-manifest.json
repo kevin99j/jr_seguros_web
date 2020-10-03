@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/jr_seguros_web/static/css/main.bc98d9fe.chunk.css",
+    "main.js": "/jr_seguros_web/static/js/main.1084b516.chunk.js",
+    "main.js.map": "/jr_seguros_web/static/js/main.1084b516.chunk.js.map",
+    "runtime-main.js": "/jr_seguros_web/static/js/runtime-main.2322c3b9.js",
+    "runtime-main.js.map": "/jr_seguros_web/static/js/runtime-main.2322c3b9.js.map",
+    "static/css/2.d9ad5f5c.chunk.css": "/jr_seguros_web/static/css/2.d9ad5f5c.chunk.css",
+    "static/js/2.b9525ba7.chunk.js": "/jr_seguros_web/static/js/2.b9525ba7.chunk.js",
+    "static/js/2.b9525ba7.chunk.js.map": "/jr_seguros_web/static/js/2.b9525ba7.chunk.js.map",
+    "index.html": "/jr_seguros_web/index.html",
+    "precache-manifest.e6c0e1a69ace2f26c2a7f8a38aa6c32d.js": "/jr_seguros_web/precache-manifest.e6c0e1a69ace2f26c2a7f8a38aa6c32d.js",
+    "service-worker.js": "/jr_seguros_web/service-worker.js",
+    "static/css/2.d9ad5f5c.chunk.css.map": "/jr_seguros_web/static/css/2.d9ad5f5c.chunk.css.map",
+    "static/css/main.bc98d9fe.chunk.css.map": "/jr_seguros_web/static/css/main.bc98d9fe.chunk.css.map",
+    "static/js/2.b9525ba7.chunk.js.LICENSE.txt": "/jr_seguros_web/static/js/2.b9525ba7.chunk.js.LICENSE.txt",
+    "static/media/flaticon.css": "/jr_seguros_web/static/media/Flaticon.ad6c4e44.ttf",
+    "static/media/bg_2.jpg": "/jr_seguros_web/static/media/bg_2.37173202.jpg",
+    "static/media/dept-1.jpg": "/jr_seguros_web/static/media/dept-1.60bc6a3a.jpg",
+    "static/media/principalLogo.png": "/jr_seguros_web/static/media/principalLogo.3a9fb5a1.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2322c3b9.js",
+    "static/css/2.d9ad5f5c.chunk.css",
+    "static/js/2.b9525ba7.chunk.js",
+    "static/css/main.bc98d9fe.chunk.css",
+    "static/js/main.1084b516.chunk.js"
+  ]
+}

@@ -29,7 +29,7 @@ const Contact = () => {
                                 <span class="flaticon-phone-call"></span>
                             </div>
                             <h3 class="mb-4">Numero de telefono</h3>
-                            <p><a href="tel://1234567920">+ 1235 2355 98</a></p>
+                            <p><a href="tel://+573152852911">+57 315 2852911</a></p>
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-3 d-flex ftco_animate">
@@ -40,7 +40,7 @@ const Contact = () => {
                                 <span class="flaticon-paper-plane"></span>
                             </div>
                             <h3 class="mb-4">Correo electrónico</h3>
-                            <p><a href="mailto:info@yoursite.com">info@yoursite.com</a></p>
+                            <p><a href="mailto:jrsegurosysoluciones@gmail.com"><span style={{justifyContent:'flex-start', fontSize: 14}}>jrsegurosysoluciones@gmail.com</span></a></p>
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-3 d-flex ftco_animate">
@@ -51,7 +51,7 @@ const Contact = () => {
                                 <span class="flaticon-world-wide-web-on-grid"></span>
                             </div>
                             <h3 class="mb-4">Instagram</h3>
-                            <p><a href="#">yoursite.com</a></p>
+                            <p><a href="#">jr.segurosysoluciones</a></p>
                         </div>
                     </div>
                 </div>
@@ -88,7 +88,7 @@ const Contact = () => {
                             <div class="form-group">
                                 <input
                                     type="submit"
-                                    value="Send Message"
+                                    value="Enviar mensaje"
                                     class="btn btn-secondary py-3 px-5"
                                 />
                             </div>

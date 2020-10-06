@@ -44,7 +44,7 @@ const slides = [
     }
 ];
 
-const Home = ({services}) => {
+const Home = ({services,pricing}) => {
     const [actual, setActual] = useState(0);
 
     useEffect(() => {
@@ -67,7 +67,7 @@ const Home = ({services}) => {
                 <Carousel slide={slides[actual]} offset={0} key={actual} />
             </div>
                 <Services services={services} />
-                <Pricing />
+                <Pricing pricing={pricing} />
             </div>
         </div>
     )

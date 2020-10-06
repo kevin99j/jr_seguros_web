@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import { Link, withRouter } from 'react-router-dom';
-import Logo from '../assets/images/principalLogo.png'
+import Logo from '../assets/images/principalLogo.png';
+
+import '../assets/css/style.css'
 class Header extends Component {
 
     state = [
@@ -40,12 +42,10 @@ class Header extends Component {
     componentDidMount() {
 
         this.unlisten = this.props.history.listen((location, action) => {
-            console.log(location)
-            console.log("on route change");
-            let stit = this.state.find(state =>(state.to === location.pathname));
+            let stit = this.state.find(state => (state.to === location.pathname));
             stit.isActive = true;
             this.state.forEach(state => {
-                if(state !== stit){
+                if (state !== stit) {
                     state.isActive = false;
                 }
             });
@@ -67,10 +67,10 @@ class Header extends Component {
                             <div className="col-sm justify-content-center d-flex mb-md-0 mb-2">
                                 <div className="social-media">
                                     <p className="mb-0 d-flex">
-                                        <a href="#" className="d-flex align-items-center justify-content-center"><span className="fa fa-facebook"><i className="sr-only">Facebook</i></span></a>
-                                        <a href="#" className="d-flex align-items-center justify-content-center"><span className="fa fa-twitter"><i className="sr-only">Twitter</i></span></a>
-                                        <a href="#" className="d-flex align-items-center justify-content-center"><span className="fa fa-instagram"><i className="sr-only">Instagram</i></span></a>
-                                        <a href="#" className="d-flex align-items-center justify-content-center"><span className="fa fa-dribbble"><i className="sr-only">Dribbble</i></span></a>
+                                        <a href="https://www.facebook.com/jrsegurosysoluciones" className="d-flex align-items-center justify-content-center"><img src="/assets/images/icons/facebook.png" alt="icon" style={{ height: '30px' }} /></a>
+                                        <a href="https://www.instagram.com/jr.segurosysoluciones/" className="d-flex align-items-center justify-content-center"><img src="/assets/images/icons/instagram.png" alt="icon" style={{ height: '30px' }} /></a>
+                                        <a href="mailto:jrsegurosysoluciones@gmail.com?Subject=Hola quisiera mas información acerca de planes" className="d-flex align-items-center justify-content-center"><img src="/assets/images/icons/gmail.png" alt="icon" style={{ height: '30px' }} /></a>
+                                        <a href="https://wa.me/+573152852911?text=Hola quisiera mas información acerca de planes" className="d-flex align-items-center justify-content-center"><img src="/assets/images/icons/whatsapp.png" alt="icon" style={{ height: '30px' }} /></a>
                                     </p>
                                 </div>
                             </div>
@@ -82,19 +82,19 @@ class Header extends Component {
                     <div className="container">
                         <div className="row d-flex align-items-start align-items-center px-3 px-md-0">
                             <div className="col-md-4 d-flex mb-2 mb-md-0">
-                                <a className="navbar-brand d-flex align-items-center" href="index.html"><img src={Logo} alt="jr seguros y soluciones" style={{ height: '100px' }} /></a>
+                                <a className="navbar-brand d-flex align-items-center" href="/"><img src={Logo} alt="jr seguros y soluciones" style={{ height: '100px' }} /></a>
                             </div>
                             <div className="col-md-4 d-flex topper mb-md-0 mb-2 align-items-center">
                                 <div className="icon d-flex justify-content-center align-items-center">
-                                    <span className="fa fa-map"></span>
+                                    <span className="flaticon-phone-call"></span>
                                 </div>
                                 <div className="pr-md-4 pl-md-3 pl-3 text">
-                                    <p className="con"><span>Llamanos</span> <span>+1 234 456 78910</span></p>
+                                    <p className="con"><span>Llamanos</span> <span>+57 315 2852911</span></p>
                                     <p className="con">Call Us Now 24/7 Customer Support</p>
                                 </div>
                             </div>
                             <div className="col-md-4 d-flex topper mb-md-0 align-items-center">
-                                <div className="icon d-flex justify-content-center align-items-center"><span className="fa fa-paper-plane"></span>
+                                <div className="icon d-flex justify-content-center align-items-center"><span className="flaticon-flag"></span>
                                 </div>
                                 <div className="text pl-3 pl-md-3">
                                     <p className="hr"><span>Nuestra sede</span></p>
@@ -112,9 +112,9 @@ class Header extends Component {
                         <div className="collapse navbar-collapse" id="ftco-nav">
                             <ul className="navbar-nav m-auto">
                                 {
-                                    this.state.map((detail,index)=>{
-                                        return(
-                                            <li className={`nav-item ${detail.isActive ? 'active': ''}`} key={index} id="/"><Link className="nav-link" to={detail.to}>{detail.name}</Link></li>
+                                    this.state.map((detail, index) => {
+                                        return (
+                                            <li className={`nav-item ${detail.isActive ? 'active' : ''}`} key={index} id="/"><Link className="nav-link" to={detail.to}>{detail.name}</Link></li>
                                         )
                                     })
                                 }

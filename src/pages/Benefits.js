@@ -60,7 +60,9 @@ const Benefits = ({ benefits }) => {
                         <div className="tab-content pt-4 pt-md-0 pl-md-3">
                             <div className="tab-pane container p-0 active" id="services-1">
                                 <div className="row">
-                                    <div className="col-md-5 img" style={{ backgroundImage: 'url(' + image + ')' }}></div>
+                                    <div className="col-md-5 img" >
+                                        <img src={benefits.benefitsList.length > 0 ? benefits.benefitsList[benefitIndex].image: ""} style={{width: '300px'}} />
+                                    </div>
                                    {
                                        showBenefit()
                                    }

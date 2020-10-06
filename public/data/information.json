@@ -30,6 +30,7 @@
             {
                 "title": "CON JR SEGUROS",
                 "icon": "/assets/images/logo.png",
+                "image":"/assets/images/portada/IMG-20200909-WA0112.jpg",
                 "details": [
                     "SOMOS HONESTOS CON LOS APORTES DE LOS AFILIADOS, DEBIDO A QUE RESPETAMOS LAS LEYES INTERNAS DEL DINERO",
                     "NO SE AFILIAN POR UNOS DÍAS Y LUEGO DESAFILIAN",
@@ -42,6 +43,7 @@
             {
                 "title": "CON LA EPS",
                 "icon": "/assets/images/4.png",
+                "image":"/assets/images/portada/IMG-20200509-WA0141.jpg",
                 "details": [
                     "Podrá afiliar a su cónyuge o compañero(a) permanente, hijos(as) menores de 25 años que estén estudiando",
                     "Si no tiene conyugue ni hijos(as) podrá afiliar a sus Padres siempre que no sean pensionados y dependen económicamente de usted",
@@ -52,6 +54,7 @@
             {
                 "title": "CON LA ARL",
                 "icon": "/assets/images/3.png",
+                "image":"/assets/images/portada/IMG-20200509-WA0144.jpg",
                 "details": [
                     "La cobertura es nacional",
                     "Son cubiertos 5 niveles de Riesgos Laborales",
@@ -61,6 +64,7 @@
             {
                 "title": "CON LA AFP (PENSIONES)",
                 "icon": "/assets/images/5.png",
+                "image":"/assets/images/portada/IMG-20200905-WA0089.jpg",
                 "details": [
                     "La edad de pensión en Hombres es 62 Años",
                     "La edad de pensión para Mujeres es de 57 Años",
@@ -68,8 +72,9 @@
                 ]
             },
             {
-                "title": "CON LA CCF (CAJA DE COMPENSACION)",
+                "title": "CON LA CCF   (CAJA DE COMPENSACION FAMILIAR)",
                 "icon": "/assets/images/2.png",
+                "image": "/assets/images/portada/IMG-20200509-WA0143.jpg",
                 "details": [
                     "Subsidio familiar a partir del mes de la afiliación por cada beneficiario menor de 18 años que tenga calidad de estudiante, mes vencido (CCF realiza el pago el día 30 de cada mes)",
                     "Ingreso a todos los servicios de Recreación y Deporte que ofrece la caja de compensación a la cual usted se encuentra afiliado",
@@ -138,6 +143,46 @@
                             "NO RECIBEN SUBSIDIO"
                         ]
                     }
+                ]
+            }
+        ]
+    },
+    "pricing":{
+        "title": "Nuestros Planes",
+        "plans":[
+            {
+                "title": "ESENCIAL",
+                "price": "80.000",
+                "benefits":[
+                    "EPS",
+                    "ARL"
+                ]
+            },
+            {
+                "title": "FAMILIAR",
+                "price": " 115.000",
+                "benefits":[
+                    "EPS",
+                    "ARL",
+                    "CAJA DE COMPENSACIÓN FAMILIAR"
+                ]
+            },
+            {
+                "title": "CORPORATIVO",
+                "price": "215.000",
+                "benefits":[
+                    "EPS",
+                    "ARL",
+                    "FONDO PENSIONAL"
+                ]
+            }, {
+                "title": "CORPORATIVO PLUS",
+                "price": "250.000",
+                "benefits":[
+                    "EPS",
+                    "ARL",
+                    "FONDO PENSIONAL",
+                    "CAJA DE COMPENSACIÓN FAMILIAR"
                 ]
             }
         ]

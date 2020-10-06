@@ -15,17 +15,21 @@ function App() {
 
 
   const [info, setInfo] = useState({
-    services:{
+    services: {
       title: '',
       servicesList: [],
     },
     benefits: {
-      benefitsList:[],
+      benefitsList: [],
       title: ''
     },
     documentation: {
       title: '',
       sections: []
+    },
+    pricing: {
+      title: '',
+      plans: []
     }
   });
 
@@ -36,31 +40,32 @@ function App() {
     });
   }, [])
 
+  debugger
 
   return (
     <div className="App">
-       <Router>
-      <Header /> 
-      <Switch>
-        <Route exact path="/">
-        <Home  services={info.services}/>
-        </Route>
-        <Route path="/services">
-        <Services services={info.services} />
-        </Route>
-        <Route path="/pricing">
-        <Pricing />
-        </Route>
-        <Route path="/benefits">
-        <Benefits benefits={info.benefits} />
-        </Route>
-        <Route path="/documentation">
-        <Documentation documentation={info.documentation} />
-        </Route>
-        <Route path="/contact">
-        <Contact/>
-        </Route>
-      </Switch>
+      <Router>
+        <Header />
+        <Switch>
+          <Route exact path="/">
+            <Home services={info.services} pricing={info.pricing} />
+          </Route>
+          <Route path="/services">
+            <Services services={info.services} />
+          </Route>
+          <Route path="/pricing">
+            <Pricing pricing={info.pricing} />
+          </Route>
+          <Route path="/benefits">
+            <Benefits benefits={info.benefits} />
+          </Route>
+          <Route path="/documentation">
+            <Documentation documentation={info.documentation} />
+          </Route>
+          <Route path="/contact">
+            <Contact />
+          </Route>
+        </Switch>
       </Router>
       <Footer />
     </div>
